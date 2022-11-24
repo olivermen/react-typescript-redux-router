@@ -1,0 +1,41 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --primary-color: #741ce8;
+  --primary-hover: #452bc7;
+  
+  --premium-color: #ffcd00;
+  --premium-hover: #deb000;
+  
+  --btn-light-hover: #22252d;
+  --btn-default-color: #5b43d6;
+  
+  --border-color: #d1d9d9;
+  
+  --bg-color-light: rgb(121, 52, 204);
+  --bg-gradient-start: #7a19f1;
+  --bg-gradient-end: #5a00d1; 
+
+  
+  --white-color: #ffffff;
+  --black-color: #000000;
+  --font-color: #292626;
+
+  --font : -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
