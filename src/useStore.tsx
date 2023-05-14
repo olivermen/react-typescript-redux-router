@@ -113,7 +113,7 @@ const useStore = () => {
   const G = useSelector((state: StoreObject) => state);
   const dispatch = useDispatch();
   const update = (payload: Partial<StoreObject>) =>
-    dispatch(slice.actions.update(payload));
+    dispatch(slice.actions.update(payload as any));
 
   const showLoading = (show: boolean) => update({ loading: show });
 
